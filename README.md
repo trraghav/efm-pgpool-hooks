@@ -12,6 +12,8 @@ There are two scripts to handle the PgPool cluster.
 * efm_loadbalancer_attach.sh
 * efm_loadbalancer_detach.sh 
 
+**Note: Scripts will execute PgPool pcp_* unix commands. Hence, PCP_* commands MUST be configured password-less connection to PgPool Cluster on PCP port 9898**  
+
 ### efm_loadbalancer_attach.sh 
 
 This script will be called by EFM **after** performing switchover or failover or standby node resume actions. Hence, this script takes action according to 2 rules to attach or promoate database node in PgPool cluster via PCP command 
