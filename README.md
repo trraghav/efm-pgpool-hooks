@@ -25,7 +25,7 @@ This script will be called by EFM **after** performing switchover or failover or
 
 This script will be called by EFM **before** performing switchover or failover or standby node stop actions. Hence, this script detachs any database node that becomes inactive and updates PgPool cluster via PCP command.
 
-### Important Points 
+## Important Points 
 
 * Scripts should be edited to update ENVIRONMENT variables of 1) PG/EPAS database 2) PCP User/Port/Host and 3) Script Logging 
 * Configure PCP password-less authentication so they are called by EFM user and they are not prompted for password.
@@ -99,7 +99,7 @@ Node 172.31.34.34 Status after detach :
 
 
 
-### References
+## References
 
 Article posted on the usage of the scripts 
 
