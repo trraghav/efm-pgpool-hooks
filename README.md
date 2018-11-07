@@ -31,7 +31,7 @@ This script will be called by EFM **before** performing switchover or failover o
 * Configure PCP password-less authentication so they are called by EFM user and they are not prompted for password.
 * All scripts should be placed in a location where **EFM user ** has access to it.
 
-### Tested Configuration files are available in "test-conffile" directory
+# Sample Configuration files 
 
 Sample configuration files of EPAS, EFM & PgPool files are uploaded. Please go through it as a reference point when implementing it.
 
@@ -101,21 +101,10 @@ Node 172.31.34.34 Status after detach :
 --------------------------------------------
 ```
 
-
-
 ## References
 
-Read the article for configuration.
+Article posted on installation & configuration, Please visit: [www.raghavt.com](https://www.raghavt.com/)  
 
-[www.raghavt.com](https://www.raghavt.com/)  
-
-Short video link demonstrating the integration of EFM & PgPool.
-
-[https://youtu.be/pgZJiXa3SoY](https://youtu.be/pgZJiXa3SoY)
-
-
-
-
-
+Short video link demonstrating the integration of EFM & PgPool: [https://youtu.be/pgZJiXa3SoY](https://youtu.be/pgZJiXa3SoY)
 
 
