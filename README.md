@@ -31,6 +31,10 @@ This script will be called by EFM **before** performing switchover or failover o
 * Configure PCP password-less authentication so they are called by EFM user and they are not prompted for password.
 * All scripts should be placed in a location where **EFM user ** has access to it.
 
+### Tested Configuration files are available in "test-conffile" directory
+
+Sample configuration files of EPAS, EFM & PgPool files are uploaded. Please go through it as a reference point when implementing it.
+
 #### Sample EFM Attach Script Logging
 
 ```
@@ -101,9 +105,13 @@ Node 172.31.34.34 Status after detach :
 
 ## References
 
-Article posted on the usage of the scripts 
+Read the article for configuration.
 
-Short video link demonstrating the EFM Load Balancer Hooks scripts in action:
+[www.raghavt.com](https://www.raghavt.com/)  
+
+Short video link demonstrating the integration of EFM & PgPool.
+
+[https://youtu.be/pgZJiXa3SoY](https://youtu.be/pgZJiXa3SoY)
 
 
 
